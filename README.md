@@ -30,7 +30,7 @@ The feasible start barrier method can be summarized as follows:
 
 ![barrier](img/barrier_method.png)
 
-The centering problem is an equality constrained optimization problem that can be solved using Newton's method with backtracking line search (see `LPCenteringSolver` in `LPSolver.py`)
+The centering problem is an equality constrained optimization problem that can be solved using Newton's method with backtracking line search (see `LPCenteringSolver` in `lp_solver.py`)
 
 ### Feasibility Check
 Strict feasibility can be first determined by solving the following LP problem, of which a feasible starting point can be easily identified:
